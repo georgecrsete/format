@@ -1,4 +1,9 @@
-a = 5
-b = 5
-c = 5
-print((a + b + c) / 3)
+
+a = int(input("Digite o primeiro número a: "))
+b = int(input("Digite o segundo número b: "))
+c = int(input("Digite o terceiro número c: "))
+
+media = (a + b + c) / 3
+
+
+print(media)
